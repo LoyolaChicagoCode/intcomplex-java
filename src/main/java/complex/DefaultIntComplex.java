@@ -21,11 +21,9 @@ public class DefaultIntComplex implements IntComplex {
 
     @Override
     public IntComplex twitch() {
-        int  temp;
-        temp=real();
-        real=imag();
-        imag= temp;
-        return this;
+        IntComplex t = new DefaultIntComplex(this.imag(),this.real());
+
+        return t;
     }
 
 

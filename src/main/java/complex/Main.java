@@ -1,11 +1,6 @@
 package complex;
 
-import static org.junit.Assert.*;
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
 
-import java.util.Objects;
 
 public class Main {
 
@@ -21,8 +16,8 @@ public class Main {
         if(!c2.equals(c1)){System.out.println("c2 not equals c1");}
         if(!c1.equals(null)){System.out.println("c1 not null");}
 
-        if(c2.equals(c2.twitch()))
-        {System.out.println("they are inverted and equals");}
+        if(c1.equals(c2.twitch()))
+        {System.out.println("Inverted C2 is equal to c1");}
 
 
         //System.out.println("bye for now");
