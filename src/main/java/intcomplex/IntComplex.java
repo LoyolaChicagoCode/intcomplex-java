@@ -1,7 +1,7 @@
-package complex;
+package intcomplex;
 
 public interface IntComplex {
     int real();
     int imag();
-    IntComplex twitch();
+    IntComplex interchange();
 }
